@@ -1,0 +1,43 @@
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+
+
+<p>Welcome to my page! </br> I'm Bibek Lamichhane, Backend developer from <img src="https://cdn-icons-png.flaticon.com/512/630/630696.png" width="13"/> <b>Pokhara, Nepal</b> </p>
+<h3>Things I code with</h3>
+<p>
+  <img alt="GO" src="https://img.shields.io/badge/-Go-007ACC?style=flat-square&logo=Go&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=Python&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-45b8d8?style=flat-square&logo=PostgreSQL&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/-Git-F7B93E?style=flat-square&logo=Git&logoColor=white" />
+  <img alt="Github" src="https://img.shields.io/badge/-Github-43853d?style=flat-square&logo=Github&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-45b8d8?style=flat-square&logo=fastapi&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=insomnia&logoColor=white" />
+  <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
+  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
+  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="Brave browser" src="https://img.shields.io/badge/-Brave_Browser-FB542B?style=flat-square&logo=brave&logoColor=white" />
+  <img alt="d3js" src="https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
+  <img alt="RestAPI" src="https://img.shields.io/badge/-RestAPI-F7B93E?style=flat-square&logo=restapi&logoColor=white" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
+</p>
+
+<h3>Projects:</h3>
+<ul>
+  <li><a href="https://fastapi.lamichhanebibek.com.np/"><b><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/fire_1f525.png" width="20" alt="new" /> FastAPI</b></a><br/><i>A FastAPI-based backend service that implements secure authentication using JWT (JSON Web Tokens) and integrates with PostgreSQL for efficient data storage and management. The project provides a scalable and modular architecture, ensuring reliable API endpoints with role-based access control and smooth database operations.</i></li>
+  <li><a href="https://chat.lamichhanebibek.com.np/"><b><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/fire_1f525.png" width="20" alt="new" /> Chat</b></a><br/><i>A real-time chat web application built with Next.js for the frontend and Golang for the backend. It provides seamless real-time messaging using WebSockets, ensuring fast and reliable communication between users. The app is designed for scalability, with a modern UI powered by Next.js and an efficient, concurrent backend built with Go.</i></li>
+  <li><a href="https://games.lamichhanebibek.com.np"><b><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/fire_1f525.png" width="20" alt="new" /> Games</b></a><br/><i>A web-based gaming application developed with Next.js, featuring classic games such as Sudoku, Tetris, and 2048. The app delivers a smooth and interactive user experience with responsive design and optimized performance, making it accessible across devices.</i></li>
+</ul>
+
+
+<h3>Where to find me</h3>
+<p><a href="https://github.com/LamichhaneBibek" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>  <a href="https://www.linkedin.com/in/LamichhaneBibek/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> </a>
+</p>
+
+------------
+<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Thursday, September 11 at 4:05 PM GMT+5:45<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own here!</a></p>
+<p align="center"><img src="https://github.com/LamichhaneBibek/LamichhaneBibek/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/LamichhaneBibek/LamichhaneBibek?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/LamichhaneBibek/LamichhaneBibek?style=flat-square&labelColor=343b41"/></p>
