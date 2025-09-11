@@ -1,0 +1,32 @@
+{
+  "name": "lamichhanebibek",
+  "version": "1.0.0",
+  "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamichhaneBibek/LamichhaneBibek.git"
+  },
+  "keywords": [
+    "readme.md",
+    "github",
+    "actions",
+    "dynamic",
+    "javascript"
+  ],
+  "author": "Thomas Guibert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamichhaneBibek/LamichhaneBibek/issues"
+  },
+  "homepage": "https://github.com/LamichhaneBibek/LamichhaneBibek#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mustache": "^4.0.1",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.1.0"
+  }
+}
