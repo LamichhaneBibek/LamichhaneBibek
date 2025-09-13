@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+
 class PuppeteerService {
   browser;
   page;
@@ -29,19 +30,25 @@ class PuppeteerService {
       await this.init();
     }
     this.page = await this.browser.newPage();
-
     await this.page.setExtraHTTPHeaders({
       'Accept-Language': 'en-US',
     });
-
     await this.page.goto(url, {
       waitUntil: `networkidle0`,
     });
   }
 
   async close() {
-    await this.page.close();
-    await this.browser.close();
+    try {
+      if (this.page) {
+        await this.page.close();
+      }
+      if (this.browser) {
+        await this.browser.close();
+      }
+    } catch (error) {
+      console.log('Error closing puppeteer:', error);
+    }
   }
 
   /**
@@ -54,20 +61,16 @@ class PuppeteerService {
       const page = `https://www.picuki.com/profile/${acc}`;
       await this.goToPage(page);
       let previousHeight;
-
       previousHeight = await this.page.evaluate(`document.body.scrollHeight`);
       await this.page.evaluate(`window.scrollTo(0, document.body.scrollHeight)`);
       // 🔽 Doesn't seem to be needed
       // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await this.page.waitFor(1000);
-
       const nodes = await this.page.evaluate(() => {
         const images = document.querySelectorAll(`.post-image`);
         return [].map.call(images, img => img.src);
       });
-
       console.log('nodes', nodes);
-
       return nodes.slice(0, 3);
     } catch (error) {
       console.log('Error', error);
@@ -77,5 +80,4 @@ class PuppeteerService {
 }
 
 const puppeteerService = new PuppeteerService();
-
 module.exports = puppeteerService;
