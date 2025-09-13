@@ -8,7 +8,10 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 
 // Badge data organized by categories
 const badges = [
-  { alt: 'Go', src: 'https://img.shields.io/badge/-Go-007ACC?style=flat-square&logo=Go&logoColor=white' },
+  {
+    alt: 'Go',
+    src: 'https://img.shields.io/badge/-Go-007ACC?style=flat-square&logo=Go&logoColor=white',
+  },
   {
     alt: 'Python',
     src: 'https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=Python&logoColor=white',
@@ -19,140 +22,51 @@ const badges = [
   },
   {
     alt: 'JavaScript',
-    src: 'https://img.shields.io/badge/-JavaScript-007ACC?style=flat-square&logo=javascript&logoColor=white',
+    src: 'https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black',
   },
   {
-    alt: 'HTML5',
-    src: 'https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white',
-  },
-  { alt: 'CSS', src: 'https://img.shields.io/badge/-CSS-E34F26?style=flat-square&logo=css&logoColor=white' },
-
-  { alt: 'Git', src: 'https://img.shields.io/badge/-Git-F7B93E?style=flat-square&logo=Git&logoColor=white' },
-  {
-    alt: 'Github',
-    src: 'https://img.shields.io/badge/-Github-43853d?style=flat-square&logo=Github&logoColor=white',
-  },
-  {
-    alt: 'Docker',
-    src: 'https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white',
-  },
-  {
-    alt: 'Swagger',
-    src: 'https://img.shields.io/badge/-Swagger-46a2f1?style=flat-square&logo=swagger&logoColor=white',
-  },
-
-  {
-    alt: 'FastAPI',
-    src: 'https://img.shields.io/badge/-FastAPI-45b8d8?style=flat-square&logo=fastapi&logoColor=white',
-  },
-  {
-    alt: 'RestAPI',
-    src: 'https://img.shields.io/badge/-RestAPI-F7B93E?style=flat-square&logo=restapi&logoColor=white',
-  },
-  {
-    alt: 'GraphQL',
-    src: 'https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white',
-  },
-
-  {
-    alt: 'Github Actions',
-    src: 'https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white',
-  },
-  {
-    alt: 'Heroku',
-    src: 'https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white',
-  },
-  {
-    alt: 'Railway',
-    src: 'https://img.shields.io/badge/-Railway-46a2f1?style=flat-square&logo=railway&logoColor=white',
-  },
-  {
-    alt: 'Vercel',
-    src: 'https://img.shields.io/badge/-Vercel-46a2f1?style=flat-square&logo=vercel&logoColor=white',
-  },
-  {
-    alt: 'Netlify',
-    src: 'https://img.shields.io/badge/-Netlify-46a2f1?style=flat-square&logo=netlify&logoColor=white',
-  },
-  {
-    alt: 'Cloudflare',
-    src: 'https://img.shields.io/badge/-Cloudflare-46a2f1?style=flat-square&logo=cloudflare&logoColor=white',
-  },
-  {
-    alt: 'Render',
-    src: 'https://img.shields.io/badge/-Render-46a2f1?style=flat-square&logo=render&logoColor=white',
-  },
-
-  {
-    alt: 'VsCode',
-    src: 'https://img.shields.io/badge/-VsCode-46a2f1?style=flat-square&logo=vscode&logoColor=white',
-  },
-  { alt: 'Zed', src: 'https://img.shields.io/badge/-Zed-46a2f1?style=flat-square&logo=zed&logoColor=white' },
-  {
-    alt: 'NeoVim',
-    src: 'https://img.shields.io/badge/-NeoVim-46a2f1?style=flat-square&logo=neovim&logoColor=white',
-  },
-
-  {
-    alt: 'Postman',
-    src: 'https://img.shields.io/badge/-Postman-46a2f1?style=flat-square&logo=postman&logoColor=white',
-  },
-  {
-    alt: 'Curl',
-    src: 'https://img.shields.io/badge/-Curl-46a2f1?style=flat-square&logo=curl&logoColor=white',
-  },
-  {
-    alt: 'Insomnia',
-    src: 'https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=insomnia&logoColor=white',
-  },
-
-  { alt: 'UV', src: 'https://img.shields.io/badge/-UV-CB3837?style=flat-square&logo=uv&logoColor=white' },
-  { alt: 'NPM', src: 'https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white' },
-  {
-    alt: 'D3.js',
-    src: 'https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white',
-  },
-  {
-    alt: 'Nodejs',
-    src: 'https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white',
-  },
-  {
-    alt: 'ReactJS',
-    src: 'https://img.shields.io/badge/-ReactJs-46a2f1?style=flat-square&logo=reactjs&logoColor=white',
-  },
-  {
-    alt: 'Nextjs',
-    src: 'https://img.shields.io/badge/-NextJs-46a2f1?style=flat-square&logo=nextjs&logoColor=white',
-  },
-
-  {
-    alt: 'Firefox',
-    src: 'https://img.shields.io/badge/-Firefox-FB542B?style=flat-square&logo=firefox&logoColor=white',
-  },
-  {
-    alt: 'Linux',
-    src: 'https://img.shields.io/badge/-Linux-46a2f1?style=flat-square&logo=linux&logoColor=white',
-  },
-  {
-    alt: 'Ubuntu',
-    src: 'https://img.shields.io/badge/-Ubuntu-46a2f1?style=flat-square&logo=ubuntu&logoColor=white',
-  },
-
-  {
-    alt: 'MySql',
-    src: 'https://img.shields.io/badge/-MySql-46a2f1?style=flat-square&logo=mysql&logoColor=white',
-  },
-  {
-    alt: 'SQLite',
-    src: 'https://img.shields.io/badge/-SQLite-46a2f1?style=flat-square&logo=sqlite&logoColor=white',
+    alt: 'PostgreSQL',
+    src: 'https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white',
   },
   {
     alt: 'MongoDB',
     src: 'https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white',
   },
   {
-    alt: 'PostgreSQL',
-    src: 'https://img.shields.io/badge/-PostgreSQL-45b8d8?style=flat-square&logo=PostgreSQL&logoColor=white',
+    alt: 'FastAPI',
+    src: 'https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white',
+  },
+  {
+    alt: 'Node.js',
+    src: 'https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white',
+  },
+  {
+    alt: 'Docker',
+    src: 'https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white',
+  },
+  {
+    alt: 'Git',
+    src: 'https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white',
+  },
+  {
+    alt: 'GitHub',
+    src: 'https://img.shields.io/badge/-Github-181717?style=flat-square&logo=Github&logoColor=white',
+  },
+  {
+    alt: 'GitHub Actions',
+    src: 'https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white',
+  },
+  {
+    alt: 'HTML5',
+    src: 'https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white',
+  },
+  {
+    alt: 'GraphQL',
+    src: 'https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white',
+  },
+  {
+    alt: 'Heroku',
+    src: 'https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white',
   },
 ];
 
@@ -218,8 +132,8 @@ async function setInstagramPosts() {
 }
 
 async function generateReadMe() {
-  // Organize badges into table format
-  DATA.rows = organizeBadgesIntoRows(badges, 3);
+  // Organize badges into 3x3 table format
+  DATA.rows = organizeBadgesInto3x3Grid();
 
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
