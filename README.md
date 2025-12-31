@@ -24,12 +24,6 @@
           <td>
             <img alt="JavaScript" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-JavaScript-F7DF1E?style&#x3D;for-the-badge&amp;logo&#x3D;javascript&amp;logoColor&#x3D;black" />
           </td>
-          <td>
-            <img alt="HTML5" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-HTML5-E34F26?style&#x3D;for-the-badge&amp;logo&#x3D;html5&amp;logoColor&#x3D;white" />
-          </td>
-          <td>
-            <img alt="CSS3" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-CSS3-1572B6?style&#x3D;for-the-badge&amp;logo&#x3D;css3&amp;logoColor&#x3D;white" />
-          </td>
       </tr>
       <tr>
           <td>
@@ -97,6 +91,9 @@
           <td>
             <img alt="Zed" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-Zed-084CCF?style&#x3D;for-the-badge&amp;logo&#x3D;zed&amp;logoColor&#x3D;white" />
           </td>
+          <td>
+            <img alt="zsh" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-ZSH-003B57?style&#x3D;for-the-badge&amp;logo&#x3D;zsh&amp;logoColor&#x3D;white" />
+          </td>
       </tr>
       <tr>
           <td>
@@ -136,6 +133,9 @@
           <td>
             <img alt="GitHub Actions" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-GitHub_Actions-2088FF?style&#x3D;for-the-badge&amp;logo&#x3D;github-actions&amp;logoColor&#x3D;white" />
           </td>
+          <td>
+            <img alt="V0" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-V0-2088FF?style&#x3D;for-the-badge&amp;logo&#x3D;v0&amp;logoColor&#x3D;white" />
+          </td>
       </tr>
       <tr>
           <td>
@@ -146,6 +146,9 @@
           </td>
           <td>
             <img alt="Firefox" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-Firefox-FF7139?style&#x3D;for-the-badge&amp;logo&#x3D;firefox&amp;logoColor&#x3D;white" />
+          </td>
+          <td>
+            <img alt="Android" src="https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;-Android-FF7139?style&#x3D;for-the-badge&amp;logo&#x3D;android&amp;logoColor&#x3D;white" />
           </td>
       </tr>
   </table>
@@ -164,5 +167,5 @@
 </ul>
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>monthly</b>!</br>Last refresh: Wednesday, December 17 at 1:39 PM GMT+5:45<br /><a href="https://github.com/LamichhaneBibek/LamichhaneBibek">Create your own here!</a></p>
+<p align="center">This <i>README</i> file is generated <b>monthly</b>!</br>Last refresh: Wednesday, December 31 at 2:48 PM GMT+5:45<br /><a href="https://github.com/LamichhaneBibek/LamichhaneBibek">Create your own here!</a></p>
 <p align="center"><img src="https://github.com/LamichhaneBibek/LamichhaneBibek/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/LamichhaneBibek/LamichhaneBibek?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/LamichhaneBibek/LamichhaneBibek?style=flat-square&labelColor=343b41"/></p>
