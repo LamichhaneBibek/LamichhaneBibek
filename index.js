@@ -23,14 +23,6 @@ const badgeGrid = [
       alt: 'JavaScript',
       src: 'https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black',
     },
-    {
-      alt: 'HTML5',
-      src: 'https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white',
-    },
-    {
-      alt: 'CSS3',
-      src: 'https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white',
-    },
   ],
 
   // Row 2: Development Tools (Second Cell)
@@ -127,6 +119,10 @@ const badgeGrid = [
       alt: 'Zed',
       src: 'https://img.shields.io/badge/-Zed-084CCF?style=for-the-badge&logo=zed&logoColor=white',
     },
+    {
+      alt: 'zsh',
+      src: 'https://img.shields.io/badge/-ZSH-003B57?style=for-the-badge&logo=zsh&logoColor=white',
+    },
   ],
 
   // Row 7: API Testing & Package Managers
@@ -180,6 +176,10 @@ const badgeGrid = [
       alt: 'GitHub Actions',
       src: 'https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white',
     },
+    {
+      alt: 'V0',
+      src: 'https://img.shields.io/badge/-V0-2088FF?style=for-the-badge&logo=v0&logoColor=white',
+    },
   ],
 
   // Row 10: Operating Systems & Browsers
@@ -195,6 +195,10 @@ const badgeGrid = [
     {
       alt: 'Firefox',
       src: 'https://img.shields.io/badge/-Firefox-FF7139?style=for-the-badge&logo=firefox&logoColor=white',
+    },
+    {
+      alt: 'Android',
+      src: 'https://img.shields.io/badge/-Android-FF7139?style=for-the-badge&logo=android&logoColor=white',
     },
   ],
 ];
